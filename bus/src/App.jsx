@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 import Mission from './components/Mission'
 import Maps from './components/Maps'
 import Form from './components/Form'
-import Starlinkk from './components/StarLink'
+import Star from './components/Star'
 
 function App() {
 
@@ -28,11 +28,10 @@ function App() {
       <Mission/>
       <Partnes/>
       <Travel/>
-      <Starlinkk/>
+      <Star/>
       <Maps/>
       <Form/>
       <Footer/>
-      <p>@</p>
     </main>
       
     </>

@@ -1,7 +1,7 @@
 import Starlink from '../../assets/StarLink_Logo.svg'
 import './index.css'
 
-function Starlinkk() {
+function Star() {
     return (
         <section className="container-fluid container-s">
             <img src={Starlink} alt="starlink" />
@@ -16,4 +16,5 @@ function Starlinkk() {
             </div>
         </section>
     )
-} export default Starlinkk
+} 
+export default Star
