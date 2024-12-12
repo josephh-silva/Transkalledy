@@ -1,0 +1,29 @@
+.container-par{
+    text-align: center;
+}
+.img-busP{
+    width: 10rem;
+    height: 10rem;
+}
+.container-par h3{
+    color: #d00000;
+
+}
+@media(min-width: 2000px) and (max-width: 2560px){
+    .img-busP{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media(min-width: 1440px) and (max-width: 2000px){
+    .img-busP{
+        width: 16rem;
+        height: 16rem;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1440px){
+    .img-busP{
+        width: 15rem;
+        height: 15rem;
+    }
+}
