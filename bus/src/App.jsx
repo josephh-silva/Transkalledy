@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import ParteOne from './components/ParteOne'
 import PartTwo from './components/PartTwo'
@@ -11,31 +10,26 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Mission from './components/Mission'
 import Maps from './components/Maps'
-import Form from './components/Form'
-import Star from './components/Star'
+import Linkk from './components/Link'
+
 
 function App() {
-
   return (
-    <>
-    <main className="container-g">
-      <Navbar/>
-      <ParteOne/>
-      <PartTwo/>
-      <PartThree/>
-      <Discover/>
-      <Carr/>
-      <Mission/>
-      <Partnes/>
-      <Travel/>
-      <Star/>
-      <Maps/>
-      <Form/>
-      <Footer/>
-    </main>
-      
-    </>
-  )
+      <main className="container-g">
+        <Navbar />
+        <ParteOne />
+        <PartTwo />
+        <PartThree />
+        <Discover />
+        <Carr />
+        <Mission />
+        <Partnes />
+        <Travel />
+        <Linkk />
+        <Maps />
+        <Footer />
+      </main>
+  );
 }
 
-export default App
+export default App;

@@ -31,9 +31,14 @@
 }
 .d-two-one span{
     color: #d90429;
+    text-align: center;
 }
 .d-two-one h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.p-d{
+    font-size: 1.5rem !important;
 }
 .d-two-two{
     min-height: 15rem;
@@ -50,20 +55,22 @@
 }
 .cards{
     position: absolute;
-    top: 10rem;
-    left: 9rem;
+    top: 12rem;
+    padding-left: 7rem;
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     height: auto;
+    width: 100%;
 
 }
 .card-services{
     background-color: black;
     min-height: 9rem;
-    width: 15rem;
+    width: 20rem;
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 2rem;
@@ -87,281 +94,238 @@
 .card-services img{
     width: 3rem;
 }
-@media(min-width: 2000px) and (max-width: 2560px){
-    .container-d{
-        min-height: auto;
-        margin-top: 10rem;
-        padding: 3rem;
-        gap: 2rem;
-    }
-    
+@media(min-width: 2000px) and (max-width: 2560px) {
     .d-two-two{
-        min-height: 30rem;
-        min-width: 100%;
-        border-radius: 1rem;
-        margin-bottom: 0;
-    }
-    .d-two-one span{
-        font-size: 2.3rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-    .d-two-one h3{
-        font-size: 5rem;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .d-two-one p{
-        font-size: 2.4rem;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .cards{
-        position: absolute;
-        top: 23rem;
-        left: 12rem;
+        height: 30rem ;
+        width: 90rem;
+        border-radius: 2rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 3rem;
-        min-height: 13rem;
-
+        gap: 1rem;
+        color: #ffffff;
+        position: relative;
+        background-image: url('../../assets/seat1.jpg');
+        background-position: center;
+        background-size: cover;
     }
-    .card-services{
-        width: 30rem;
-        font-size: 2rem;
-    }
-    
-}
-@media(min-width: 1440px) and (max-width: 2000px){
+     .d-two-one span{
+         font-size: 2rem;
+         text-align: center;
+         color: #d90429;
+     }
+     .d-two-one h3{
+         font-size: 3rem;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+         text-align: center;
+     }
+     .d-two-one p{
+         text-align: center;
+         font-size: 2rem !important;
+     }
+     .d-two-two{
+         min-height: 15rem;
+         min-width: 18rem;
+         border-radius: 1rem;
+         margin-bottom: 0rem;
+ 
+     }
+     .cards{
+         position: absolute;
+         top: 25rem;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 3rem;
+         height: auto;
+     
+     }
+     .card-services{
+         width: 20rem;
+         font-size: 1.5rem;
+         display: flex;
+         text-align: center;
+     }
+     
+ }
+ @media(min-width: 1024px) and (max-width: 1440px) {
     .container-d{
-        min-height: auto;
-        margin-top: 10rem;
-        padding: 3rem;
-        gap: 2rem;
+     margin-bottom: 0rem;
+     margin-top: 3rem;
     }
-    
-    .d-two-two{
-        min-height: 25rem;
-        min-width: 100%;
-        border-radius: 1rem;
-        margin-bottom: 0;
+     .d-two-one span{
+         font-size: 1rem;
+         text-align: center;
+         color: #d90429;
+     }
+     .d-two-one h3{
+         font-size: 2rem;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+         text-align: center;
+     }
+     .d-two-one p{
+         text-align: center;
+         font-size: 1.3rem !important;
+     }
+     .d-two-two{
+         min-height: 15rem;
+         min-width: 18rem;
+         border-radius: 1rem;
+         margin-bottom: 13rem;
+ 
+     }
+     .cards{
+         position: absolute;
+         top: 12rem;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 3rem;
+         height: auto;
+     
+     }
+     .card-services{
+         width: 10rem;
+         font-size: 1rem;
+         display: flex;
+         text-align: center;
+     }
+     
+ }
+@media(min-width: 768px) and (max-width: 1024px) {
+    .container-d{
+     margin-bottom: 0rem;
+     margin-top: 3rem;
     }
-    .d-two-one span{
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-    .d-two-one h3{
-        font-size: 3rem;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .d-two-one p{
-        font-size: 2rem;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .cards{
-        position: absolute;
-        top: 22rem;
-        left: 5rem;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        height: auto;
+     .d-two-one span{
+         font-size: 1rem;
+         text-align: center;
+         color: #d90429;
+     }
+     .d-two-one h3{
+         font-size: 2rem;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+         text-align: center;
+     }
+     .d-two-one p{
+         text-align: center;
+         font-size: 1.3rem !important;
+     }
+     .d-two-two{
+         min-height: 15rem;
+         min-width: 18rem;
+         border-radius: 1rem;
+         margin-bottom: 13rem;
+ 
+     }
+     .cards{
+         position: absolute;
+         top: 12rem;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 3rem;
+         height: auto;
+     
+     }
+     .card-services{
+         width: 10rem;
+         font-size: 1rem;
+         display: flex;
+         text-align: center;
+     }
+     
+ }
+@media(min-width: 425px) and (max-width: 768px) {
+   .container-d{
+    margin-bottom: 25rem;
 
-    }
-    .card-services{
-        width: 23rem;
-        font-size: 2rem;
-    }
-    
-}
-@media(min-width: 1170px) and (max-width: 1440px){
-   
-    
-    .d-two-two{
-        min-height: 15rem;
-        min-width: 100%;
-        border-radius: 1rem;
-        margin-bottom: 0;
-
-    }
+   }
     .d-two-one span{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         color: #d90429;
     }
     .d-two-one h3{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-align: center;
     }
     .d-two-one p{
         text-align: center;
-        font-size: 1.5rem;
+    }
+    .d-two-two{
+        min-height: 15rem;
+        min-width: 18rem;
+        border-radius: 1rem;
+        margin-bottom: 13rem;
+
     }
     .cards{
         position: absolute;
-        top: 12rem;
-        left: 6rem;
+        top: 20rem;
+        padding: 0;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 3rem;
         height: auto;
+    
     }
     .card-services{
         width: 17rem;
+        font-size: 1rem;
     }
     
 }
-
-@media(min-width: 1024px) and (max-width: 1170px){
+@media(min-width: 375px) and (max-width: 425px) {
    
-    
-    .d-two-two{
-        min-height: 15rem;
-        min-width: 18rem;
-        border-radius: 1rem;
-        margin-bottom: 0;
-
-    }
     .d-two-one span{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         color: #d90429;
     }
     .d-two-one h3{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-align: center;
     }
     .d-two-one p{
         text-align: center;
-        font-size: 1.5rem;
+    }
+    .d-two-two{
+        min-height: 15rem;
+        min-width: 18rem;
+        border-radius: 1rem;
+        margin-bottom: 13rem;
+
     }
     .cards{
         position: absolute;
-        top: 12rem;
-        left: 4rem;
+        top: 20rem;
+        padding: 0;
+        
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
         height: auto;
+    
     }
     .card-services{
-        width: 15rem;
-    }
-    
-}
-@media(min-width: 768px) and (max-width: 1024px){
-   
-    .d-two-one span{
-        font-size: 1.2rem;
-        text-align: center;
-        color: #d90429;
-    }
-    .d-two-one h3{
-        font-size: 2.5rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-    .d-two-one p{
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .d-two-two{
-        min-height: 15rem;
-        min-width: 18rem;
-        border-radius: 1rem;
-        margin-bottom: 0;
-
-    }
-    .cards{
-        position: absolute;
-        top: 20rem;
-        left: 6rem;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        height: auto;
-        display: none;
-    }
-    
-}
-@media(min-width: 425px) and (max-width: 768px){
-   
-    .d-two-one span{
+        width: 17rem;
         font-size: 1rem;
-        text-align: center;
-        color: #d90429;
-    }
-    .d-two-one h3{
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-    .d-two-one p{
-        text-align: center;
-    }
-    .d-two-two{
-        min-height: 15rem;
-        min-width: 18rem;
-        border-radius: 1rem;
-        margin-bottom: 0;
-
-    }
-    .cards{
-        position: absolute;
-        top: 20rem;
-        left: 6rem;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        height: auto;
-        display: none;
     }
     
 }
-@media(min-width: 375px) and (max-width: 425px){
-    .d-two-one span{
-        font-size: 1rem;
-        text-align: center;
-        color: #d90429;
-    }
-    .d-two-one h3{
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-    .d-two-one p{
-        text-align: center;
-    }
-    .d-two-two{
-        min-height: 15rem;
-        min-width: 18rem;
-        border-radius: 1rem;
-        margin-bottom: 13rem;
 
-    }
-    .cards{
-        position: absolute;
-        top: 20rem;
-        left: 1.7rem;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        height: auto;
-    
-    }
-    
-}
-@media(min-width: 320px) and (max-width: 375px){
+@media(min-width: 320px) and (max-width: 375px) {
    
     .d-two-one span{
         font-size: 1rem;
@@ -387,12 +351,17 @@
     .cards{
         position: absolute;
         top: 20rem;
-        left: 1.7rem;
+        padding: 0;
+        
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
         height: auto;
     
+    }
+    .card-services{
+        width: 17rem;
+        font-size: 1rem;
     }
     
 }

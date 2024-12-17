@@ -1,19 +1,19 @@
 .mission{
-  
     background-position: center;
     background-size: cover;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 5rem;
     justify-content: space-evenly;
     margin-bottom: 7rem;
 }
+
 .card-m{
-    padding-top: 3rem;
+    padding: 3rem;
     background-color: #000000;
     color: #ffffff;
-    width: 45vh;
+    width: auto;
     min-height: auto;
     display: flex;
     align-items: center;
@@ -23,8 +23,9 @@
     box-shadow: 0.8rem 0.8rem 1rem rgba(0, 0, 0, 0.3);
     position: relative;
 }
-.missionn::after{
-    content: 'Missão';
+
+.missionn::after {
+    content: 'Missão'; /* Texto específico para .missionn */
     position: absolute;
     top: -3rem;
     left: 35%;
@@ -32,188 +33,40 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-.vision::after{
-    content: 'Visão';
+
+.vision::after {
+    content: 'Visão'; /* Texto específico para .vision */
     position: absolute;
     top: -3rem;
     left: 35%;
-    background-color: red;
+    background-color: red; /* Cor de fundo diferente para diferenciar */
     padding: 2rem;
     border-radius: 1rem;
 }
-.values::after{
-    content: 'Valores';
+
+.values::after {
+    content: 'Valores'; /* Texto específico para .values */
     position: absolute;
     top: -3rem;
     left: 35%;
-    background-color: red;
+    background-color: red; /* Cor de fundo diferente para diferenciar */
     padding: 2rem;
     border-radius: 1rem;
 }
-@media(min-width: 2000px) and (max-width: 2560px){
-    .mission{
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        padding-top: 6rem;
-        width: 45vh;
-        height: auto;
-        font-size: 1.7rem;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
+
+
+.ps {
+    font-size: 1rem !important; /* Força a alteração, se necessário */
 }
-@media(min-width: 1440px) and (max-width: 2000px){
+
+@media (min-width: 2000px) {
+    .ps {
+        font-size: 2rem !important; /* Força a alteração, se necessário */
+    }
     .mission{
-        gap: 8rem;
-        margin-bottom: 7rem;
+        font-size: 2rem;
     }
     .card-m{
-        width: 45vh;
-        min-height: auto;
-        font-size: 1rem;
-        padding: 3rem;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
-}
-@media(min-width: 1024px) and (max-width: 1440px){
-    .mission{
-  
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        width: 45vh;
-        min-height: auto;
-        font-size: 1rem;
-        padding: 1rem;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
-}
-@media(min-width: 768px) and (max-width: 1024px){
-    .mission{
-  
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        width: 45vh;
-        min-height: auto;
-        font-size: 1rem;
-        padding: 1rem;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
-}
-@media(min-width: 425px) and (max-width: 768px){
-    .mission{
-  
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        width: 45vh;
-        min-height: auto;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
-}
-@media(min-width: 375px) and (max-width: 425px){
-    .mission{
-  
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        width: 45vh;
-        min-height: auto;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
-    }
-}
-@media(min-width: 320px) and (max-width: 375px){
-    .mission{
-  
-        gap: 8rem;
-        margin-bottom: 7rem;
-    }
-    .card-m{
-        width: 45vh;
-        min-height: auto;
-    }
-    .missionn::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .vision::after{
-        top: -3rem;
-        left: 33%;
-    }
-    .values::after{
-        top: -3rem;
-        left: 32%;
+        padding: 5rem;
     }
 }

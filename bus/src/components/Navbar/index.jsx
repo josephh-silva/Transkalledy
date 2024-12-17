@@ -1,4 +1,5 @@
 import './index.css'
+import Whats from '../../assets/whatsapp.png'
 function Navbar() {
     return (
         <>
@@ -12,9 +13,11 @@ function Navbar() {
                 </div>
                 <div className=" wht">
 
-                    <button class="custom-btn btn-16" onClick={() => window.open(
-                        'https://wa.me/5591993150080', '_blank')}>
-                        Atendimento
+                    <button 
+                        class="custom-btn btn-16" 
+                        onClick={() => window.open('https://wa.me/5591993150080', '_blank')}>
+                        <img src={Whats} alt="at" className='whats' />
+                        atendimento
                     </button>
 
                 </div>

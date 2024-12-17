@@ -1,6 +1,6 @@
 .container-travel{
     margin-top: 15rem;
-    margin-bottom: 15rem;
+    margin-bottom: 6rem;
     min-height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -87,21 +87,20 @@
         position: relative;
     }
     .travel-part-one::after {
-        top: 68rem;
-        left: 20rem;
-        width: 35rem;
+        top: 38rem;
+        left: 10rem;
+        width: 45rem;
         height: 15rem;
         border-radius: 2rem;
-        
      }
      .travel-part-one::before{
         border-radius: 0;
      }
      .travel-part-two p{
-        font-size: 4rem;
+        font-size: 3rem !important;
     }
     .travel-part-two span{
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         margin: 1rem;
     }
 }
@@ -127,21 +126,17 @@
         position: relative;
     }
     .travel-part-one::after {
-        top: 35rem;
-        left: 10rem;
-        width: 25rem;
-        height: 10rem;
-        border-radius: 2rem;
+        display: none;
         
      }
      .travel-part-one::before{
         border-radius: 0;
      }
      .travel-part-two p{
-        font-size: 2rem;
+        font-size: 1.5rem !important;
     }
     .travel-part-two span{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 1rem;
     }
 }
@@ -167,10 +162,10 @@
         position: relative;
     }
     .travel-part-one::after {
-        top: 25rem;
-        left: 10rem;
-        width: 15rem;
-        height: 10rem;
+        top: 23rem;
+        left: 5rem;
+        width: 20rem;
+        height: 7rem;
         border-radius: 2rem;
         
      }
@@ -178,10 +173,10 @@
         border-radius: 0;
      }
      .travel-part-two p{
-        font-size: 1.3rem;
+        font-size: 1.2rem !important;
     }
     .travel-part-two span{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 1rem;
     }
 }

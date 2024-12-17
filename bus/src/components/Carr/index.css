@@ -10,7 +10,7 @@
     padding: 2rem;
 }
 .front{
-    width: 40%;
+    width: 70%;
     height: auto;
     text-align: center;
 }
@@ -23,11 +23,11 @@
     color: #ffffff;
 }
 .front p{
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
 }
 .swiper{
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 .container-car{
     display: flex;
@@ -44,7 +44,7 @@
 .h3-f, .p-f{
     overflow: hidden;
 }
-@media(min-width: 2000px) and (max-width: 2560px){
+@media(min-width: 2000px) {
     .container-swiper{
         padding: 0;
         margin-top: 9rem;
@@ -56,8 +56,8 @@
         font-size: 4rem;
     }
     .front p{
-        margin-top: 2rem;
-        font-size: 3rem;
+        margin-top: 2rem ;
+        font-size: 2rem !important;
     }
     .swiper{
         width: 100%;
@@ -76,7 +76,7 @@
 @media(min-width: 1400px) and (max-width: 2000px){
     .container-swiper{
         padding: 0;
-        margin-top: 9rem;
+        margin-top: 0rem;
     }
     .front{
         min-width: 70%;
@@ -85,7 +85,7 @@
         font-size: 4rem;
     }
     .front p{
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
         margin-top: 3rem;
     }
     .swiper{
@@ -104,7 +104,7 @@
 @media(min-width: 1024px) and (max-width: 1440px){
     .container-swiper{
         padding: 0;
-        margin-top: 9rem;
+        margin-top: 0rem;
     }
     .front{
         min-width: 70%;
@@ -114,6 +114,7 @@
     }
     .front p{
         margin-top: 2rem;
+        font-size: 1.2rem !important;
     }
     .swiper{
         width: 100%;
@@ -131,7 +132,7 @@
 @media(min-width: 768px) and (max-width: 1024px){
     .container-swiper{
         padding: 0;
-        margin-top: 5rem;
+        margin-top: 0rem;
 
     }
     .front{
@@ -139,6 +140,9 @@
     }
     .front h3{
         font-size: 2rem;
+    }
+    .front p{
+        font-size: 1.2rem !important;
     }
     .swiper{
         width: 100%;

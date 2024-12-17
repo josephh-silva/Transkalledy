@@ -6,6 +6,9 @@ import Map from '../../assets/map.svg'
 import Phne from '../../assets/phone-f.svg'
 import Email from '../../assets/email.svg'
 
+import { Link } from 'react-router-dom'
+import Formm from '../Form'
+
 
 function Footer() {
     return (
@@ -18,7 +21,7 @@ function Footer() {
                 </div>
                 <p>O melhor do transporte para você</p>
             </div> 
-            <div className='linkss'>
+            <div className='linkss '>
                 <span>Links Rapidos </span>
                 <div className="links-a">
                     <div className="set">
@@ -38,20 +41,22 @@ function Footer() {
             <div className="contacts">
                 <div className="infos">
                     <div className='box'>
-                        <img src={Map} alt="" />
-                        <p>
+                        <img src={Map} alt=""  className='icon'/>
+                        <span>
                             Castanheira/Belém, <br />
                             Passagem Jardim Anabiju,
                             Número 80
-                        </p>
+                        </span>
                     </div>
                     <div className="phone">
-                        <img src={Phne} alt="" />
+                        <img src={Phne} alt="" className='icon' />
                         <span>(91) 99315-0080</span>
                     </div>
                     <div className="email">
-                        <img src={Email} alt="" />
-                        <span>contato@transkalledy.com.br</span>
+                        <img src={Email} alt="" className='icon' />
+                        <a href="/form" target="_blank" rel="noopener noreferrer">
+                        Mande a sua dúvida aqui
+                    </a>
                     </div>
                 </div>
             </div>

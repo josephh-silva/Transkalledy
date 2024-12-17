@@ -29,9 +29,14 @@
     border: none;
     padding: 1rem;
     border-radius: 2rem;
-    width: 10rem;
+    width: auto;
     background-color: #bf0603;
     color: #ffffff;
+    display: flex;
+    gap: 1rem;
+}
+button .whats{
+    width: 2rem;
 }
 @media(min-width: 425px) and (max-width: 768px){
     .container-nav{

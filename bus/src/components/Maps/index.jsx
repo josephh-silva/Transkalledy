@@ -1,6 +1,7 @@
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import './index.css';
 
+
 function Maps() {
   const { isLoaded, loadError } = useJsApiLoader({
     id: 'google-map-script',
@@ -20,7 +21,7 @@ function Maps() {
     <section className="container-fluid map" style={{ height: 'auto' }}>
       {isLoaded ? (
         <GoogleMap
-          mapContainerStyle={{ height: '70vh' }}
+          mapContainerStyle={{ height: '70vh', width: '100%' }}
           className="map-coor"
           center={position}
           zoom={20} // Zoom ajustado para uma visualização melhor
@@ -34,4 +35,3 @@ function Maps() {
 }
 
 export default Maps;
-
