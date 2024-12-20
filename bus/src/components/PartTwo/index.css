@@ -1,6 +1,6 @@
 .about{
     min-height: auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: nowrap;
     gap: 2rem;
@@ -249,17 +249,19 @@
     .about{
         flex-direction: column;
         justify-content: center;
+        margin-top: 2rem;
     }
     .about-one{
         align-items: center;
         text-align: center;
         min-height: 50vh;
+        
     }
     .about-one h1{
         font-size: 1.5rem;
     }
     .about-one span{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .about-two{
         height: 50vh;

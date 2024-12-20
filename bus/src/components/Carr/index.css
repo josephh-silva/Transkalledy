@@ -1,6 +1,6 @@
 .container-swiper{
     min-height: auto;
-    margin-top: 10rem;
+    margin-top: 0rem;
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
 .h3-f, .p-f{
     overflow: hidden;
 }
-@media(min-width: 2000px) {
+@media(min-width: 1840px) {
     .container-swiper{
         padding: 0;
         margin-top: 9rem;
@@ -73,19 +73,19 @@
     
     }
 }
-@media(min-width: 1400px) and (max-width: 2000px){
+@media(min-width: 1440px) and (max-width: 1840px){
     .container-swiper{
         padding: 0;
-        margin-top: 0rem;
+       
     }
     .front{
         min-width: 70%;
     }
     .front h3{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .front p{
-        font-size: 1.5rem !important;
+        font-size: 1.6rem !important;
         margin-top: 3rem;
     }
     .swiper{
@@ -104,17 +104,19 @@
 @media(min-width: 1024px) and (max-width: 1440px){
     .container-swiper{
         padding: 0;
-        margin-top: 0rem;
+        margin-top: 0;
     }
     .front{
-        min-width: 70%;
+        min-width: 80%;
+        
     }
     .front h3{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .front p{
         margin-top: 2rem;
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
+       
     }
     .swiper{
         width: 100%;
@@ -142,7 +144,7 @@
         font-size: 2rem;
     }
     .front p{
-        font-size: 1.2rem !important;
+        font-size: 1.2rem ;
     }
     .swiper{
         width: 100%;
@@ -159,7 +161,7 @@
 @media(min-width: 425px) and (max-width: 768px){
     .container-swiper{
         padding: 0;
-        margin-top: 2rem;
+       ;
     }
     .front h3{
         font-size: 2rem;

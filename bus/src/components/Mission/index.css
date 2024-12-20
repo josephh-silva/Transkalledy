@@ -13,7 +13,7 @@
     padding: 3rem;
     background-color: #000000;
     color: #ffffff;
-    width: auto;
+    width: 50rem;
     min-height: auto;
     display: flex;
     align-items: center;
@@ -22,6 +22,7 @@
     border-radius: 2rem;
     box-shadow: 0.8rem 0.8rem 1rem rgba(0, 0, 0, 0.3);
     position: relative;
+    
 }
 
 .missionn::after {
@@ -30,7 +31,7 @@
     top: -3rem;
     left: 35%;
     background-color: red;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -40,7 +41,7 @@
     top: -3rem;
     left: 35%;
     background-color: red; /* Cor de fundo diferente para diferenciar */
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -50,21 +51,29 @@
     top: -3rem;
     left: 35%;
     background-color: red; /* Cor de fundo diferente para diferenciar */
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
 
 .ps {
-    font-size: 1rem !important; /* Força a alteração, se necessário */
+    font-size: 1.2rem !important; /* Força a alteração, se necessário */
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1840px) {
     .ps {
         font-size: 2rem !important; /* Força a alteração, se necessário */
     }
     .mission{
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    .card-m{
+        padding: 4rem;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1840px) {
+    .mission{
+        font-size: 1.5rem;
     }
     .card-m{
         padding: 5rem;

@@ -38,7 +38,7 @@
     text-align: center;
 }
 .p-d{
-    font-size: 1.5rem !important;
+    font-size: 1.5rem ;
 }
 .d-two-two{
     min-height: 15rem;
@@ -94,9 +94,9 @@
 .card-services img{
     width: 3rem;
 }
-@media(min-width: 2000px) and (max-width: 2560px) {
+@media(min-width: 1840px)  {
     .d-two-two{
-        height: 30rem ;
+        height: 25rem ;
         width: 90rem;
         border-radius: 2rem;
         display: flex;
@@ -109,30 +109,77 @@
         background-size: cover;
     }
      .d-two-one span{
-         font-size: 2rem;
+         font-size: 2.5rem;
          text-align: center;
          color: #d90429;
      }
      .d-two-one h3{
-         font-size: 3rem;
+         font-size: 3.5rem;
          margin-top: 2rem;
          margin-bottom: 2rem;
          text-align: center;
      }
      .d-two-one p{
          text-align: center;
-         font-size: 2rem !important;
+         font-size: 2.5rem ;
      }
      .d-two-two{
          min-height: 15rem;
          min-width: 18rem;
          border-radius: 1rem;
          margin-bottom: 0rem;
+         background-color: aqua;
  
      }
      .cards{
          position: absolute;
-         top: 25rem;
+         top: 20rem;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 3rem;
+         height: auto;
+     
+     }
+     .card-services{
+         width: 23rem;
+         font-size: 2rem;
+         display: flex;
+         text-align: center;
+     }
+     
+ }
+ @media(min-width: 1440px) and (max-width: 1840px) {
+    .container-d{
+     margin-bottom: 0rem;
+     margin-top: 3rem;
+    }
+     .d-two-one span{
+         font-size: 1.5rem;
+         text-align: center;
+         color: #d90429;
+     }
+     .d-two-one h3{
+         font-size: 2.5rem;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+         text-align: center;
+     }
+     .d-two-one p{
+         text-align: center;
+         font-size: 1.7rem ;
+     }
+     .d-two-two{
+         min-height: 15rem;
+         min-width: 18rem;
+         border-radius: 1rem;
+         margin-bottom: 13rem;
+ 
+     }
+     .cards{
+         position: absolute;
+         top: 12rem;
          padding: 0;
          display: flex;
          justify-content: center;
@@ -155,7 +202,7 @@
      margin-top: 3rem;
     }
      .d-two-one span{
-         font-size: 1rem;
+         font-size: 1.3rem;
          text-align: center;
          color: #d90429;
      }
@@ -188,7 +235,7 @@
      
      }
      .card-services{
-         width: 10rem;
+         width: 15rem;
          font-size: 1rem;
          display: flex;
          text-align: center;
@@ -234,7 +281,7 @@
      
      }
      .card-services{
-         width: 10rem;
+         width: 15rem;
          font-size: 1rem;
          display: flex;
          text-align: center;
@@ -243,22 +290,24 @@
  }
 @media(min-width: 425px) and (max-width: 768px) {
    .container-d{
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
+    margin-top: 1rem;
 
    }
     .d-two-one span{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
         color: #d90429;
     }
     .d-two-one h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-align: center;
     }
     .d-two-one p{
         text-align: center;
+        font-size: 1.3rem;
     }
     .d-two-two{
         min-height: 15rem;
@@ -285,20 +334,23 @@
     
 }
 @media(min-width: 375px) and (max-width: 425px) {
-   
+    .container-d{
+        margin-top: 1rem;
+    }
     .d-two-one span{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
         color: #d90429;
     }
     .d-two-one h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-align: center;
     }
     .d-two-one p{
         text-align: center;
+        font-size: 1.4rem;
     }
     .d-two-two{
         min-height: 15rem;
@@ -326,20 +378,23 @@
 }
 
 @media(min-width: 320px) and (max-width: 375px) {
-   
+    .container-d{
+        margin-top: 1rem;
+    }
     .d-two-one span{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
         color: #d90429;
     }
     .d-two-one h3{
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-align: center;
     }
     .d-two-one p{
         text-align: center;
+        font-size: 1.2rem;
     }
     .d-two-two{
         min-height: 15rem;
