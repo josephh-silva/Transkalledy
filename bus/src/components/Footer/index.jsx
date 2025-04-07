@@ -44,7 +44,7 @@ function Footer() {
                         <img src={Map} alt=""  className='icon'/>
                         <span>
                             Castanheira/Belém, <br />
-                            Passagem Jardim Anabiju,
+                            Passagem Jardim Anabiju, <br />
                             Número 80
                         </span>
                     </div>

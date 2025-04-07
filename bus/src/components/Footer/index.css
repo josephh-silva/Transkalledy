@@ -103,11 +103,18 @@
     .img-logo img{
         height: 35vh;
     }
-   
+    .infos{
+        padding-left: 2rem;
+         
+     }
 }
 @media(min-width: 375px) and (max-width: 425px){
     .img-logo img{
         height: 30vh;
+    }
+    .infos{
+       padding-left: 2rem;
+        
     }
    
 }
