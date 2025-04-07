@@ -99,7 +99,7 @@
     }
    
 }
-@media(min-width: 425px) and (max-width: 768px){
+@media(min-width: 425px){
     .img-logo img{
         height: 35vh;
     }
@@ -122,6 +122,11 @@
     .img-logo img{
         height: 25vh;
     }
+    .infos{
+        padding-left: 2rem;
+         gap: 2rem;
+         color: aqua;
+     }
    
 }
 
