@@ -102,12 +102,12 @@
 @media(min-width: 425px) and (max-width: 491px){
    .one-f{
         width: 100%;
-        padding-right: 2rem;
+        text-align: center;
    
    }
     .img-logo img{
         height:25vh;
-        padding-left: 2rem;
+       
     }
     .infos{
         padding-left: 2rem;
