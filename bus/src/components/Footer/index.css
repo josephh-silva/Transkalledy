@@ -99,13 +99,13 @@
     }
    
 }
-@media(min-width: 425px){
+@media(min-width: 425px) and (max-width: 768px){
     .img-logo img{
         height: 35vh;
     }
     .infos{
         padding-left: 2rem;
-         
+        color: aqua;
      }
 }
 @media(min-width: 375px) and (max-width: 425px){
@@ -114,7 +114,6 @@
     }
     .infos{
        padding-left: 2rem;
-       color: aqua;
     }
    
 }
