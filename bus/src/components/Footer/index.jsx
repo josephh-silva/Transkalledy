@@ -42,7 +42,7 @@ function Footer() {
                 <div className="infos">
                     <div className='box'>
                         <img src={Map} alt=""  className='icon'/>
-                        <span>
+                        <span className='texxt'>
                             Castanheira/Belém, <br />
                             Passagem Jardim Anabiju, <br />
                             Número 80
@@ -50,11 +50,11 @@ function Footer() {
                     </div>
                     <div className="phone">
                         <img src={Phne} alt="" className='icon' />
-                        <span>(91) 99315-0080</span>
+                        <span className='texxt'>(91) 99315-0080</span>
                     </div>
                     <div className="email">
                         <img src={Email} alt="" className='icon' />
-                        <a href="/form" target="_blank" rel="noopener noreferrer">
+                        <a className='texxt' href="/form" target="_blank" rel="noopener noreferrer">
                         Mande a sua dúvida aqui
                     </a>
                     </div>

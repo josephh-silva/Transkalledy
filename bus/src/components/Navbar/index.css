@@ -185,6 +185,8 @@ button .whats{
         margin-top: 1rem;
         margin-bottom: 1rem;
         justify-content: space-evenly;
+        flex-direction: column;
+        font-size: 1.4rem;
     }
    
 }
