@@ -1,9 +1,10 @@
 .container-travel{
-    margin-top: 15rem;
+    margin-top: 8rem;
     margin-bottom: 6rem;
     min-height: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: black
 
 }
 .travel-part-one{

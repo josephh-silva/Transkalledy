@@ -61,7 +61,7 @@ function Discover(){
                 <div className=" container  d-two-two">
                     <div className="cards">
                     <div className="  card-services card-services-1">
-                        <img src={Like} alt="svg" />
+                        <img src={Like} alt="svg"  />
                         <span>Serviço confiável</span>
                     </div>
                     <div className="  card-services card-services-2">
@@ -69,8 +69,8 @@ function Discover(){
                         <span>Preço Acessivel</span>
                     </div>
                     <div className=" col-4 card-services card-service-3">
-                        <img src={Travel} alt="svg" />
-                        <span>Viagem segura e confortavel</span>
+                        <img src={Travel} alt="svg"/>
+                        <span>Viagem segura e confortável</span>
                     </div> 
                     </div>
                     

@@ -63,7 +63,7 @@ function Travel() {
       // Inicia a contagem para cada contador
       const interval1 = countUp(setCounter, 51);
       const interval2 = countUp(setCounterV, 91);
-      const interval3 = countUp(setCounterP, 986, 10);
+      const interval3 = countUp(setCounterP, 50, 10);
       const interval4 = countUp(setCounterK, 10);
 
       // Limpeza quando o componente for desmontado
@@ -77,7 +77,7 @@ function Travel() {
   }, [startCounting]); // Inicia a contagem quando startCounting for true
 
   return (
-    <section className="container container-travel">
+    <section className="container-fluid container-travel">
       <div className="travel-part-one"></div>
       <div className="travel-part-two">
         <p>

@@ -1,47 +1,84 @@
 import { useState } from 'react';
 import './index.css';
 import emailjs from '@emailjs/browser';
-import Logo from "../../assets/logo-nav.jpg"
-
-
+import Logo from "../../assets/logo-nav.jpg";
 
 function Formm() {
-  
+  // 🔹 Estados para os campos do formulário
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  // 🔹 Função para enviar email
+  const sendEmail = (e) => {
+    e.preventDefault(); // evita recarregar a página
+
+    const templateParams = {
+      from_name: name,
+      email: email,
+      message: message
+    };
+
+    emailjs.send(
+      'service_g1dl7po',       // substitua pelo seu Service ID
+      'template_t60v0ne',      // substitua pelo seu Template ID
+      templateParams,
+      'dljq1wY_2LYRt9GM6'      // substitua pelo seu Public Key
+    )
+    .then((response) => {
+      console.log("Email enviado!", response.status, response.text);
+      alert("Mensagem enviada com sucesso!");
+      setName("");
+      setEmail("");
+      setMessage("");
+    })
+    .catch((err) => {
+      console.error("Erro ao enviar email:", err);
+      alert("Ocorreu um erro ao enviar a mensagem. Tente novamente.");
+    });
+  };
 
   return (
-    <div className=" form-c" id='Form-contact'>
-      <div className='container-gf'>
+    <div className="form-c" id="Form-contact">
+      <div className="container-gf">
+        {/* Logo */}
         <div className="logo-k">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Logo" />
         </div>
+
+        {/* Formulário */}
         <form className="form-contact" onSubmit={sendEmail}>
           <h1>Informações de contato</h1>
+
           <input
             type="text"
-            className="form-contact-input"
             name="nome"
             placeholder="Nome"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            className="form-contact-input"
             required
           />
+
           <input
             type="email"
-            className="form-contact-input"
             name="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            className="form-contact-input"
             required
           />
+
           <textarea
-            className="form-contact-textarea"
             name="conteudo"
             placeholder="Deixe uma mensagem"
-            value={textarea}
-            onChange={(e) => setTextarea(e.target.value)}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="form-contact-textarea"
             required
           />
+
           <button type="submit" className="form-contact-button">Enviar</button>
         </form>
       </div>
@@ -50,6 +87,8 @@ function Formm() {
 }
 
 export default Formm;
+
+
 
 
 /*
