@@ -43,9 +43,9 @@ function Footer() {
                     <div className='box'>
                         <img src={Map} alt=""  className='icon'/>
                         <span className='texxt'>
-                            Castanheira/Belém, <br />
-                            Passagem Jardim Anabiju, <br />
-                            Número 80
+                            Passagem Amazonas, <br />
+                            Conj. Júlia Seffer/ Ananindeua, <br />
+                            Número 55
                         </span>
                     </div>
                     <div className="phone">
