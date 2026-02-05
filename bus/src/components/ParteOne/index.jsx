@@ -11,7 +11,7 @@ function ParteOne() {
                 <div className="row background">
                     <div className="texts">
                         <h1>
-                            24 anos de <br />
+                            26 anos de <br />
                             <div className='red'>excelência</div> no 
                             transporte de <br />
                             passageiros
