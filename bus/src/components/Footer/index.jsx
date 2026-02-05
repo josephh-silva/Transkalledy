@@ -50,7 +50,7 @@ function Footer() {
                     </div>
                     <div className="phone">
                         <img src={Phne} alt="" className='icon' />
-                        <span className='texxt'>(91) 99315-0080</span>
+                        <span className='texxt'>(91) 98108-4728</span>
                     </div>
                     <div className="email">
                         <img src={Email} alt="" className='icon' />

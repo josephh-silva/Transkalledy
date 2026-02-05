@@ -6,33 +6,7 @@ import Logo from "../../assets/logo-nav.jpg"
 
 
 function Formm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [textarea, setTextarea] = useState("");
-
-  function sendEmail(e) {
-    e.preventDefault(); // Evita o recarregamento da página
-
-    // Criação do template para enviar ao emailjs
-    const templateP = {
-      from_name: name,
-      message: textarea,
-      email: email
-    };
-
-    // Enviar o email usando emailjs
-    emailjs.send("service_g1dl7po", "template_t60v0ne", templateP, "dljq1wY_2LYRt9GM6")
-      .then((response) => {
-        console.log("Email enviado", response.status, response.text);
-
-        // Limpar os campos após o envio bem-sucedido
-        setEmail("");
-        setName("");
-        setTextarea("");
-      }, (err) => {
-        console.log("Erro: ", err);
-      });
-  }
+  
 
   return (
     <div className=" form-c" id='Form-contact'>
@@ -76,3 +50,36 @@ function Formm() {
 }
 
 export default Formm;
+
+
+/*
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [textarea, setTextarea] = useState("");
+
+  function sendEmail(e) {
+    e.preventDefault(); // Evita o recarregamento da página
+
+    // Criação do template para enviar ao emailjs
+    const templateP = {
+      from_name: name,
+      message: textarea,
+      email: email
+    };
+
+    // Enviar o email usando emailjs
+    emailjs.send("service_g1dl7po", "template_t60v0ne", templateP, "dljq1wY_2LYRt9GM6")
+      .then((response) => {
+        console.log("Email enviado", response.status, response.text);
+
+        // Limpar os campos após o envio bem-sucedido
+        setEmail("");
+        setName("");
+        setTextarea("");
+      }, (err) => {
+        console.log("Erro: ", err);
+      });
+  }
+
+  senha: 
+ */

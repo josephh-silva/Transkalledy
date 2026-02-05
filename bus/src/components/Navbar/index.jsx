@@ -15,7 +15,7 @@ function Navbar() {
 
                     <button 
                         class="custom-btn btn-16" 
-                        onClick={() => window.open('https://wa.me/5591993150080', '_blank')}>
+                        onClick={() => window.open('https://wa.me/5591981084728', '_blank')}>
                         <img src={Whats} alt="at" className='whats' />
                         atendimento
                     </button>
